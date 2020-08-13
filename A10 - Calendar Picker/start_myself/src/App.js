@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 const calendarDates = Array(31)
@@ -6,14 +6,17 @@ const calendarDates = Array(31)
   .map((e, i) => i);
 
 export default function App() {
+const [startDate, setStartDate] = useState(null);
+const [endDate, setEndDate] = useState(null);
+
   return (
     <>
       <div className="date-chooser">
         <button className="date-chooser-button">
-          Start Date <span>0</span>
+          Start Date <span>{startDate}</span>
         </button>
         <button className="date-chooser-button">
-          End Date <span>0</span>
+          End Date <span>{endDate}</span>
         </button>
       </div>
 
