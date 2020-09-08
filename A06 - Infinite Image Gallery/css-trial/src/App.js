@@ -12,12 +12,11 @@ function App() {
       </form>
 
       <div className="image-grid">
-        Image here
-        {/* {[...Array(100)].map((_, index) => (
+        {[...Array(100)].map((_, index) => (
           <div className="image" key={index}>
             <img src="https://placekitten.com/g/1920/1080" alt="Sample" />
           </div>
-        ))} */}
+        ))}
       </div>
     </div>
   );
