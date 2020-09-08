@@ -16,7 +16,7 @@ function App() {
             <a>Features</a>
           </div>
         </div>
-        <div className="preview">Pages Go Here</div>
+        <div className="viewport">Pages Go Here</div>
       </div>
     </div>
   );
