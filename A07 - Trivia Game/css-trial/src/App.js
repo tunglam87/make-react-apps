@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      {/* <ResultModal /> */}
+      <ResultModal />
       <h2>Trivia!</h2>
       <div className="question-header">
         <CategorySelector />
